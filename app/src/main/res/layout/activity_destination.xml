@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/destination_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#43464b"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:gravity="center">
+
+    <!-- The actual layout for the destination Activity Goes here -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="35dp"
+            android:text="REFINE"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:text="BUS TYPE"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/linear_horizontal_bus_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/bus_type_ac_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/white_rect_with_radius"
+                android:paddingLeft="15dp"
+                android:paddingTop="4dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="4dp"
+                android:text="AC"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/bus_type_sleeper_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/white_rect_with_radius"
+                android:paddingLeft="15dp"
+                android:paddingTop="4dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="4dp"
+                android:text="Sleeper"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/bus_type_multi_axle_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/white_rect_with_radius"
+                android:paddingLeft="15dp"
+                android:paddingTop="4dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="4dp"
+                android:text="Multi Axle"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/bus_type_normal_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/white_rect_with_radius"
+                android:paddingLeft="15dp"
+                android:paddingTop="4dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="4dp"
+                android:text="Normal"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="BUS BRAND"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/bus_brand_volvo_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/white_rect_with_radius"
+                android:paddingLeft="15dp"
+                android:paddingTop="4dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="4dp"
+                android:text="Volvo"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/bus_brand_mercedes_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/white_rect_with_radius"
+                android:paddingLeft="15dp"
+                android:paddingTop="4dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="4dp"
+                android:text="Mercedes"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/bus_brand_scania_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/white_rect_with_radius"
+                android:paddingLeft="15dp"
+                android:paddingTop="4dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="4dp"
+                android:text="Scania"
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="PRICE"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/price_low_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/white_rect_with_radius"
+                android:paddingTop="4dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="4dp"
+                android:text="Low"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/price_medium_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/white_rect_with_radius"
+                android:paddingLeft="15dp"
+                android:paddingTop="4dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="4dp"
+                android:text="Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/price_royal_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/white_rect_with_radius"
+                android:paddingLeft="15dp"
+                android:paddingTop="4dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="4dp"
+                android:text="Royal"
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/done_selection"
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:layout_margin="25dp"
+            android:padding="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_right" />
+
+    </LinearLayout>
+
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:gravity="center"-->
+    <!--android:text="This is the activity that is revealed!!!" />-->
+
+</RelativeLayout>
+
